@@ -26,11 +26,15 @@ A fully functional and responsive To-Do List web application built using **HTML*
 ---
 
 ## 📁 Folder Structure
+
+```
 todo-app/
-├── index.html # Main HTML file
-├── style.css # Styling and themes
-├── script.js # Functionality logic
-└── README.md # Project documentation
+├── index.html        # Main HTML file
+├── style.css         # Styling and themes
+├── script.js         # Functionality logic
+├── screenshot.png    # Demo preview image
+└── README.md         # Project documentation
+```
 
 
 ---
