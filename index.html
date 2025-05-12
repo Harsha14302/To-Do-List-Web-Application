@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="theme-switch">
+        <button id="toggleTheme">
+          <span id="themeIcon">☀️</span>
+        </button>
+      </div>
+      <h2>To-Do List</h2>
+      <div class="input-group">
+        <input type="text" id="taskInput" placeholder="Enter task..." />
+        <input type="date" id="dueDate" />
+        <input type="time" id="dueTime" /> <!-- New time input -->
+        <select id="category">
+          <option value="Work">Work</option>
+          <option value="Personal">Personal</option>
+          <option value="Urgent">Urgent</option>
+        </select>
+        <button id="addBtn">Add Task</button>
+      </div>
+      <div class="search-box">
+        <input type="text" id="search" placeholder="Search tasks..."/>
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th>No.</th>
+            <th>Todo item</th>
+            <th>Status</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="taskTableBody"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
